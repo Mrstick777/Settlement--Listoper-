@@ -1,0 +1,247 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", serif;
+    box-sizing: border-box;
+}
+
+/* A */
+
+aside{
+    text-align: center;
+    background-color: blueviolet;
+    padding: 10px 30px 10px 30px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 10px;
+}
+
+aside img{
+    width: 110px;
+    border-radius: 15px;
+}
+
+aside p{
+    color: white;
+}
+
+/* B */
+
+body{
+  background-color:#ac00e6;
+}
+
+/* S */
+
+.secretor{
+  font-size: 35px;
+  color: black;
+  background-color:#8600b3 ;
+  border-radius: 10px;
+}
+
+.secret{
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.secret:hover{
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+/* F */
+
+footer{
+    background-color: #8600b3;
+    height: 161px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+footer p{
+  color: white;
+  font-size: 15px;
+}
+
+footer p:hover{
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.foto{
+  border-radius: 10px;
+}
+
+/* G */
+
+.golovna{
+  height:2000px;
+}
+
+/* H */
+
+header{
+  height: 315px;
+  background-color:#8600b3;
+  text-align: center;
+}
+.histori{
+    background-color: #60e049;
+    padding: 75px;
+    margin: 85px 55px 0px 55px;
+    border-radius: 25px;
+    border: solid #800000 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* I */
+
+.informit{
+    background-color: blueviolet;
+    height: 550px;
+    width: 450px;
+    margin-left: 110px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.informit p{
+    font-size: 20px;
+    background-color: white;
+    padding: 10px 0px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.information_main{
+    height:1000px;
+}
+
+.inform{
+    background-color: blueviolet;
+    height: 550px;
+    width: 450px;
+    margin-right: 50px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.inform a{
+    text-decoration: none;
+    color: white;
+    background-color: #2B4A00;
+    font-size: 24px;
+    padding: 10px 50px;
+}
+
+.inform a:hover{
+  font-size: 27px;
+  border-radius: 10px;
+  background-color:#3b6600;
+  transition:1s linear;
+}
+
+.inform h3{
+    background-color: white;
+    padding: 10px 0px;
+    font-size: 20px;
+    margin: 50px 50px 25px 50px;
+    border-radius: 15px;
+}
+
+.inform p{
+    font-size: 20px;
+    background-color: white;
+    padding: 10px 0px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+/* L */
+
+.listoper{
+  font-size: 25px;
+  font-family:Segoe Print;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* M */
+
+main h1{
+  color: white;
+  background-color: #800000;
+  font-size: 40px;
+  border-radius:20px ;
+  text-align: center;
+  width: 416px;
+  border: solid black 3px;
+  padding: 5px;
+  margin-top: 25px;
+}
+
+main h1:hover{
+  text-shadow: -4px 2px #993300,-8px 4px #009900,-12px 6px white;
+  transition:1s linear;
+}
+
+main{
+  background-color:#ac00e6;
+  height:2000px;
+  box-sizing: border-box;
+}
+
+/* N */
+
+nav{
+    height: 74px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+}
+
+nav a{
+    text-decoration: none;
+    background-color:#FFFFFF;
+    color: black;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 55px;
+    border: solid black 3px;
+}
+
+nav a:hover{
+    background-color: #417100;
+    font-size: 20px;
+    transition:1s linear; 
+    color: white;
+}
+
+/* C */
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+/* T */
+
+.titleу{
+  background-color:#600080;
+  color: white;
+  letter-spacing: 15px;
+  text-shadow: -4px 2px #993300,-8px 4px #009900,-12px 6px white;
+  font-size:45px ;
+  font-family: Segoe Print;
+}
